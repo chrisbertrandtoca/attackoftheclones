@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "id": "17f6324f-edb3-4b22-919e-6a9be07598d6",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-22T15:19:11Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "52ce9fe1-502a-4db6-bd21-7829451a33f5",
+    "description": "a1",
+    "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "botIds": [
+      "alias:bot-CBPAD"
+    ],
+    "version": 1,
+    "actions": [
+      {
+        "name": "Debug Value",
+        "type": "Debug",
+        "version": "1.0.2",
+        "actionId": "817292ec-bc47-47af-baa0-8976aa4b614a",
+        "actionDefinitionActionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "echo",
+            "type": "String",
+            "value": "\u0022asd\u0022"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      }
+    ],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Gui",
+    "migratedToBotUuid": false,
+    "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+    "resourceId": "17f6324f-edb3-4b22-919e-6a9be07598d6",
+    "name": "a1a1"
+  }
+}

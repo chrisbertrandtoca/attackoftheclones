@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "52ce9fe1-502a-4db6-bd21-7829451a33f5",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-22T15:19:04Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "52ce9fe1-502a-4db6-bd21-7829451a33f5",
+    "description": "nasdno",
+    "associatedUsers": [
+      "cb3e6503-0240-4df6-87d6-5afff481116d"
+    ],
+    "deactivated": false,
+    "actionGroups": [],
+    "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+    "resourceId": "52ce9fe1-502a-4db6-bd21-7829451a33f5",
+    "name": "clone aut"
+  }
+}

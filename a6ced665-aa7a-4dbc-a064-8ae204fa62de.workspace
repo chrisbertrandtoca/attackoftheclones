@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "id": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-04-22T15:18:34Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "id": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+    "accent": "#7e646c",
+    "route": "attack-of-the-clones",
+    "description": "clomes attac",
+    "cmsEnabled": false,
+    "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+    "resourceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+    "name": "Attack of the Clones"
+  }
+}

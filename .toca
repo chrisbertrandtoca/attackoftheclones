@@ -1,4 +1,28 @@
 {
   "version": 1,
-  "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de"
+  "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+  "resources": [
+    {
+      "type": "GitActivityResource",
+      "id": "17f6324f-edb3-4b22-919e-6a9be07598d6",
+      "path": "Activity/17f6324f-edb3-4b22-919e-6a9be07598d6.activity",
+      "updated": "2026-04-22T15:19:38Z",
+      "dependencies": {
+        "componentMapping": {},
+        "appActionMapping": {},
+        "components": [],
+        "actions": [
+          "fb707467-e3b5-44da-a74f-3b6ca383791c"
+        ],
+        "appActions": []
+      }
+    }
+  ],
+  "environmentMappings": [
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-CBPAD",
+      "aliasValue": "alias:bot-CBPAD"
+    }
+  ]
 }
