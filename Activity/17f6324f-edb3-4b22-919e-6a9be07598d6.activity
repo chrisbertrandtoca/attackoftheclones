@@ -11,7 +11,7 @@
     "description": "a1",
     "associatedUserId": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "botIds": [
-      "alias:bot-CBPAD"
+      "alias:bot-other"
     ],
     "version": 1,
     "actions": [
