@@ -1,59 +1,59 @@
 {
   "metadata": {
-    "id": "*****",
-    "platformVersion": "*****",
+    "id": "da0cbef5-4c18-474d-b4f6-fcfe345dbcc7",
+    "platformVersion": "10.0.0",
     "createdAt": "2026-04-23T14:28:45Z",
-    "createdBy": "*****",
-    "schemaVersion": "*****"
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
   },
   "content": {
-    "projectId": "*****",
-    "description": "*****",
-    "associatedUserId": "*****",
+    "projectId": "52ce9fe1-502a-4db6-bd21-7829451a33f5",
+    "description": "asd",
+    "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "botIds": [
-      "*****"
+      "alias:bot-bot-2"
     ],
     "version": 1,
     "actions": [
       {
-        "name": "*****",
-        "type": "*****",
-        "version": "*****",
-        "actionId": "*****",
-        "actionDefinitionActionId": "*****",
+        "name": "C#",
+        "type": "ExecuteCSharp",
+        "version": "1.0.5",
+        "actionId": "81f7d022-2358-44c4-aeef-0a3c83350325",
+        "actionDefinitionActionId": "89d89be6-4d2c-44e0-8f63-e4ea5b53e3bf",
         "disabled": false,
         "created": "0001-01-01T00:00:00Z",
         "updated": "0001-01-01T00:00:00Z",
         "isDeactivated": false,
         "parameters": [
           {
-            "key": "*****",
-            "type": "*****",
+            "key": "command-chip",
+            "type": "Boolean",
             "value": "false"
           },
           {
-            "key": "*****",
-            "type": "*****",
+            "key": "command",
+            "type": "String",
             "value": "\u0022// comments\u0022"
           },
           {
-            "key": "*****",
-            "type": "*****",
+            "key": "timeout",
+            "type": "Number",
             "value": "30000"
           },
           {
-            "key": "*****",
-            "type": "*****",
+            "key": "errorOnTimeout",
+            "type": "Boolean",
             "value": "true"
           },
           {
-            "key": "*****",
-            "type": "*****",
+            "key": "failOnError",
+            "type": "Boolean",
             "value": "true"
           },
           {
-            "key": "*****",
-            "type": "*****",
+            "key": "redacted",
+            "type": "Boolean",
             "value": "false"
           }
         ],
@@ -70,24 +70,24 @@
         "datastoreReferences": []
       },
       {
-        "name": "*****",
-        "type": "*****",
-        "version": "*****",
-        "actionId": "*****",
-        "actionDefinitionActionId": "*****",
+        "name": "Delay",
+        "type": "Delay",
+        "version": "1.0.1",
+        "actionId": "90fe939b-d7f5-45ff-95d6-4cd2d1aa7320",
+        "actionDefinitionActionId": "4afc0589-d3bf-49d3-80e3-240be2146dcf",
         "disabled": false,
         "created": "0001-01-01T00:00:00Z",
         "updated": "0001-01-01T00:00:00Z",
         "isDeactivated": false,
         "parameters": [
           {
-            "key": "*****",
-            "type": "*****",
-            "value": "100"
+            "key": "delay",
+            "type": "Number",
+            "value": "200"
           },
           {
-            "key": "*****",
-            "type": "*****",
+            "key": "failOnError",
+            "type": "Boolean",
             "value": "true"
           }
         ],
@@ -111,7 +111,7 @@
     "activityServiceType": "Gui",
     "migratedToBotUuid": false,
     "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
-    "resourceId": "*****",
-    "name": "*****"
+    "resourceId": "da0cbef5-4c18-474d-b4f6-fcfe345dbcc7",
+    "name": "a2"
   }
 }

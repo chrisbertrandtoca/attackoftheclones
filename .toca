@@ -63,8 +63,22 @@
         "appActionMapping": {},
         "components": [],
         "actions": [
-          "*****",
           "*****"
+        ],
+        "appActions": []
+      }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "da0cbef5-4c18-474d-b4f6-fcfe345dbcc7",
+      "path": "Activity/da0cbef5-4c18-474d-b4f6-fcfe345dbcc7.activity",
+      "dependencies": {
+        "componentMapping": {},
+        "appActionMapping": {},
+        "components": [],
+        "actions": [
+          "89d89be6-4d2c-44e0-8f63-e4ea5b53e3bf",
+          "4afc0589-d3bf-49d3-80e3-240be2146dcf"
         ],
         "appActions": []
       }
@@ -95,6 +109,11 @@
       "resourceType": "*****",
       "aliasKey": "*****",
       "aliasValue": "*****"
+    },
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-bot-2",
+      "aliasValue": "alias:bot-bot-2"
     }
   ]
 }
