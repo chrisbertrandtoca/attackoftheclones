@@ -29,7 +29,7 @@
           {
             "key": "echo",
             "type": "String",
-            "value": "\u0022asd\u0022"
+            "value": "\u0022clone\u0022"
           },
           {
             "key": "failOnError",

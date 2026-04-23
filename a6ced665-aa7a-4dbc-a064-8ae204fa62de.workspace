@@ -12,6 +12,7 @@
     "route": "attack-of-the-clones",
     "description": "clomes attac",
     "cmsEnabled": false,
+    "repositoryUrl": "https://github.com/chrisbertrandtoca/attackoftheclones.git",
     "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
     "resourceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
     "name": "Attack of the Clones"
