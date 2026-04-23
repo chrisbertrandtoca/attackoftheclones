@@ -16,7 +16,7 @@
         "appActions": []
       }
     },
-{
+    {
       "type": "GitActivityResource",
       "id": "da0cbef5-4c18-474d-b4f6-fcfe345dbcc7",
       "path": "Activity/da0cbef5-4c18-474d-b4f6-fcfe345dbcc7.activity",
@@ -28,6 +28,21 @@
           "89d89be6-4d2c-44e0-8f63-e4ea5b53e3bf",
           "4afc0589-d3bf-49d3-80e3-240be2146dcf"
         ],
+        "appActions": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "9f534e58-1b35-49a7-ba5e-eaeff60016c0",
+      "path": "Page/9f534e58-1b35-49a7-ba5e-eaeff60016c0.page",
+      "dependencies": {
+        "componentMapping": {},
+        "appActionMapping": {},
+        "components": [
+          "68123ab144365d61b1cb902a",
+          "68b6f9cb5142891e12a4c92e"
+        ],
+        "actions": [],
         "appActions": []
       }
     }
