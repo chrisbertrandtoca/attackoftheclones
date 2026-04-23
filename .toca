@@ -22,6 +22,11 @@
       "resourceType": "Bot",
       "aliasKey": "bot-other",
       "aliasValue": "alias:bot-other"
+    },
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-CBPAD",
+      "aliasValue": "alias:bot-CBPAD"
     }
   ]
 }
