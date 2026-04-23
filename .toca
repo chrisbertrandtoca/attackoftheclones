@@ -53,9 +53,29 @@
         ],
         "appActions": []
       }
+    },
+    {
+      "type": "*****",
+      "id": "*****",
+      "path": "*****",
+      "dependencies": {
+        "componentMapping": {},
+        "appActionMapping": {},
+        "components": [],
+        "actions": [
+          "*****",
+          "*****"
+        ],
+        "appActions": []
+      }
     }
   ],
   "environmentMappings": [
+    {
+      "resourceType": "*****",
+      "aliasKey": "*****",
+      "aliasValue": "*****"
+    },
     {
       "resourceType": "*****",
       "aliasKey": "*****",
