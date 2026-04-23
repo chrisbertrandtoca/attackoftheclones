@@ -1,74 +1,22 @@
 {
   "version": 1,
-  "workspaceId": "*****",
+  "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
   "resources": [
     {
-      "type": "*****",
-      "id": "*****",
-      "path": "*****",
+      "type": "GitActivityResource",
+      "id": "17f6324f-edb3-4b22-919e-6a9be07598d6",
+      "path": "Activity/17f6324f-edb3-4b22-919e-6a9be07598d6.activity",
       "dependencies": {
         "componentMapping": {},
         "appActionMapping": {},
         "components": [],
         "actions": [
-          "*****"
+          "fb707467-e3b5-44da-a74f-3b6ca383791c"
         ],
         "appActions": []
       }
     },
-    {
-      "type": "*****",
-      "id": "*****",
-      "path": "*****",
-      "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [],
-        "actions": [],
-        "appActions": []
-      }
-    },
-    {
-      "type": "*****",
-      "id": "*****",
-      "path": "*****",
-      "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [],
-        "actions": [],
-        "appActions": []
-      }
-    },
-    {
-      "type": "*****",
-      "id": "*****",
-      "path": "*****",
-      "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [],
-        "actions": [
-          "*****"
-        ],
-        "appActions": []
-      }
-    },
-    {
-      "type": "*****",
-      "id": "*****",
-      "path": "*****",
-      "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [],
-        "actions": [
-          "*****"
-        ],
-        "appActions": []
-      }
-    },
-    {
+{
       "type": "GitActivityResource",
       "id": "da0cbef5-4c18-474d-b4f6-fcfe345dbcc7",
       "path": "Activity/da0cbef5-4c18-474d-b4f6-fcfe345dbcc7.activity",
@@ -86,34 +34,14 @@
   ],
   "environmentMappings": [
     {
-      "resourceType": "*****",
-      "aliasKey": "*****",
-      "aliasValue": "*****"
-    },
-    {
-      "resourceType": "*****",
-      "aliasKey": "*****",
-      "aliasValue": "*****"
-    },
-    {
-      "resourceType": "*****",
-      "aliasKey": "*****",
-      "aliasValue": "*****"
-    },
-    {
-      "resourceType": "*****",
-      "aliasKey": "*****",
-      "aliasValue": "*****"
-    },
-    {
-      "resourceType": "*****",
-      "aliasKey": "*****",
-      "aliasValue": "*****"
+      "resourceType": "Bot",
+      "aliasKey": "bot-other",
+      "aliasValue": "alias:bot-other"
     },
     {
       "resourceType": "Bot",
-      "aliasKey": "bot-bot-2",
-      "aliasValue": "alias:bot-bot-2"
+      "aliasKey": "bot-CBPAD",
+      "aliasValue": "alias:bot-CBPAD"
     }
   ]
 }
