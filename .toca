@@ -1,17 +1,55 @@
 {
   "version": 1,
-  "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+  "workspaceId": "*****",
   "resources": [
     {
-      "type": "GitActivityResource",
-      "id": "17f6324f-edb3-4b22-919e-6a9be07598d6",
-      "path": "Activity/17f6324f-edb3-4b22-919e-6a9be07598d6.activity",
+      "type": "*****",
+      "id": "*****",
+      "path": "*****",
       "dependencies": {
         "componentMapping": {},
         "appActionMapping": {},
         "components": [],
         "actions": [
-          "fb707467-e3b5-44da-a74f-3b6ca383791c"
+          "*****"
+        ],
+        "appActions": []
+      }
+    },
+    {
+      "type": "*****",
+      "id": "*****",
+      "path": "*****",
+      "dependencies": {
+        "componentMapping": {},
+        "appActionMapping": {},
+        "components": [],
+        "actions": [],
+        "appActions": []
+      }
+    },
+    {
+      "type": "*****",
+      "id": "*****",
+      "path": "*****",
+      "dependencies": {
+        "componentMapping": {},
+        "appActionMapping": {},
+        "components": [],
+        "actions": [],
+        "appActions": []
+      }
+    },
+    {
+      "type": "*****",
+      "id": "*****",
+      "path": "*****",
+      "dependencies": {
+        "componentMapping": {},
+        "appActionMapping": {},
+        "components": [],
+        "actions": [
+          "*****"
         ],
         "appActions": []
       }
@@ -19,14 +57,24 @@
   ],
   "environmentMappings": [
     {
-      "resourceType": "Bot",
-      "aliasKey": "bot-other",
-      "aliasValue": "alias:bot-other"
+      "resourceType": "*****",
+      "aliasKey": "*****",
+      "aliasValue": "*****"
     },
     {
-      "resourceType": "Bot",
-      "aliasKey": "bot-CBPAD",
-      "aliasValue": "alias:bot-CBPAD"
+      "resourceType": "*****",
+      "aliasKey": "*****",
+      "aliasValue": "*****"
+    },
+    {
+      "resourceType": "*****",
+      "aliasKey": "*****",
+      "aliasValue": "*****"
+    },
+    {
+      "resourceType": "*****",
+      "aliasKey": "*****",
+      "aliasValue": "*****"
     }
   ]
 }

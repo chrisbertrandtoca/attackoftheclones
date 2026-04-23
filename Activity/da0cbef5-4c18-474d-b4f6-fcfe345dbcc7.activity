@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "id": "*****",
+    "platformVersion": "*****",
+    "createdAt": "2026-04-23T14:28:45Z",
+    "createdBy": "*****",
+    "schemaVersion": "*****"
+  },
+  "content": {
+    "projectId": "*****",
+    "description": "*****",
+    "associatedUserId": "*****",
+    "botIds": [
+      "*****"
+    ],
+    "version": 1,
+    "actions": [
+      {
+        "name": "*****",
+        "type": "*****",
+        "version": "*****",
+        "actionId": "*****",
+        "actionDefinitionActionId": "*****",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "*****",
+            "type": "*****",
+            "value": "false"
+          },
+          {
+            "key": "*****",
+            "type": "*****",
+            "value": "\u0022// comments\u0022"
+          },
+          {
+            "key": "*****",
+            "type": "*****",
+            "value": "30000"
+          },
+          {
+            "key": "*****",
+            "type": "*****",
+            "value": "true"
+          },
+          {
+            "key": "*****",
+            "type": "*****",
+            "value": "true"
+          },
+          {
+            "key": "*****",
+            "type": "*****",
+            "value": "false"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      }
+    ],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Gui",
+    "migratedToBotUuid": false,
+    "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+    "resourceId": "*****",
+    "name": "*****"
+  }
+}
