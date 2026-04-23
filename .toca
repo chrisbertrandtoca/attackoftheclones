@@ -20,8 +20,8 @@
   "environmentMappings": [
     {
       "resourceType": "Bot",
-      "aliasKey": "bot-CBPAD",
-      "aliasValue": "alias:bot-CBPAD"
+      "aliasKey": "bot-other",
+      "aliasValue": "alias:bot-other"
     }
   ]
 }
