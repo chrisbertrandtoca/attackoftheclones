@@ -7,13 +7,9 @@
       "id": "17f6324f-edb3-4b22-919e-6a9be07598d6",
       "path": "Activity/17f6324f-edb3-4b22-919e-6a9be07598d6.activity",
       "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [],
-        "actions": [
-          "fb707467-e3b5-44da-a74f-3b6ca383791c"
-        ],
-        "appActions": []
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
       }
     },
     {
@@ -21,42 +17,21 @@
       "id": "da0cbef5-4c18-474d-b4f6-fcfe345dbcc7",
       "path": "Activity/da0cbef5-4c18-474d-b4f6-fcfe345dbcc7.activity",
       "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [],
-        "actions": [
-          "89d89be6-4d2c-44e0-8f63-e4ea5b53e3bf",
-          "4afc0589-d3bf-49d3-80e3-240be2146dcf"
-        ],
-        "appActions": []
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
       }
     },
     {
       "type": "GitPageResource",
       "id": "9f534e58-1b35-49a7-ba5e-eaeff60016c0",
-      "path": "Page/9f534e58-1b35-49a7-ba5e-eaeff60016c0.page",
-      "dependencies": {
-        "componentMapping": {},
-        "appActionMapping": {},
-        "components": [
-          "68123ab144365d61b1cb902a",
-          "68b6f9cb5142891e12a4c92e"
-        ],
-        "actions": [],
-        "appActions": []
-      }
-    }
-  ],
-  "environmentMappings": [
-    {
-      "resourceType": "Bot",
-      "aliasKey": "bot-other",
-      "aliasValue": "alias:bot-other"
+      "path": "Page/9f534e58-1b35-49a7-ba5e-eaeff60016c0.page"
     },
     {
-      "resourceType": "Bot",
-      "aliasKey": "bot-CBPAD",
-      "aliasValue": "alias:bot-CBPAD"
+      "type": "GitWorkspaceResource",
+      "id": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+      "path": "a6ced665-aa7a-4dbc-a064-8ae204fa62de.workspace"
     }
-  ]
+  ],
+  "environmentMappings": []
 }
