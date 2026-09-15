@@ -2,8 +2,8 @@
   "metadata": {
     "id": "bd0999d9-f979-427d-88b7-b73e2d055252",
     "platformVersion": "10.0.0",
-    "createdAt": "2026-09-15T07:55:50Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "createdAt": "2026-09-15T14:30:15Z",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -17,7 +17,7 @@
         "key": "Biewas",
         "type": "View",
         "value": "{\u0022uuid\u0022:\u002293fc0e52-8e84-41fd-a532-f89d95fa83a1\u0022,\u0022query\u0022:null,\u0022name\u0022:\u0022Biewas\u0022,\u0022tableId\u0022:\u002201a0a411-3463-73ec-a7b0-d46eafe3d896\u0022,\u0022joins\u0022:null,\u0022groupBy\u0022:[{\u0022value\u0022:\u0022$$01a0a411-3463-73ec-a7b0-d46eafe3d896.name$$\u0022}],\u0022having\u0022:null,\u0022datastoreId\u0022:\u0022bd0999d9-f979-427d-88b7-b73e2d055252\u0022,\u0022datastoreParameterId\u0022:\u002201a0a413-6cce-77ab-8433-bc2802d5ecaf\u0022,\u0022columns\u0022:[{\u0022id\u0022:\u002201a0a411-3463-73ec-a7b0-d46eafe3d896.id\u0022,\u0022name\u0022:\u0022name_id\u0022,\u0022label\u0022:\u0022name id\u0022},{\u0022id\u0022:\u002201a0a411-3463-73ec-a7b0-d46eafe3d896.created\u0022,\u0022name\u0022:\u0022created\u0022,\u0022label\u0022:\u0022Created\u0022},{\u0022id\u0022:\u002201a0a411-3463-73ec-a7b0-d46eafe3d896.updated\u0022,\u0022name\u0022:\u0022updated\u0022,\u0022label\u0022:\u0022Updated\u0022},{\u0022id\u0022:\u002201a0a411-3463-73ec-a7b0-d46eafe3d896.name\u0022,\u0022name\u0022:\u0022name\u0022,\u0022label\u0022:\u0022name\u0022},{\u0022id\u0022:\u002201a0a411-3463-73ec-a7b0-d46eafe3d896.age\u0022,\u0022name\u0022:\u0022age\u0022,\u0022label\u0022:\u0022age\u0022}],\u0022workspaceId\u0022:\u0022a6ced665-aa7a-4dbc-a064-8ae204fa62de\u0022,\u0022branch\u0022:\u0022main\u0022,\u0022tableIds\u0022:[\u002201a0a411-3463-73ec-a7b0-d46eafe3d896\u0022]}",
-        "revision": "01a0a413-6ce6-738b-ba00-39dc50782f7e"
+        "revision": "e797f941-b07e-11f1-aafb-a2233c74c9e6"
       },
       {
         "datastoreId": "bd0999d9-f979-427d-88b7-b73e2d055252",
@@ -25,7 +25,7 @@
         "key": "fileDrive",
         "type": "FilesLocator",
         "value": "{\u0022type\u0022:\u0022ObjectStore\u0022}",
-        "revision": "01a0a410-aa93-7674-afc4-3765629ba8e1"
+        "revision": "e795cb6a-b07e-11f1-aafb-a2233c74c9e6"
       },
       {
         "datastoreId": "bd0999d9-f979-427d-88b7-b73e2d055252",
@@ -33,7 +33,7 @@
         "key": "name",
         "type": "TableV3",
         "value": "01a0a411-3463-73ec-a7b0-d46eafe3d896",
-        "revision": "01a0a411-3463-73ed-8197-6f93b895b1c3"
+        "revision": "01a0a579-c2e6-76c5-86da-a54ba4bff1c3"
       }
     ],
     "tables": [
@@ -103,10 +103,21 @@
               "isNotNull": false,
               "dataType": "Double"
             }
+          },
+          "location": {
+            "name": "location",
+            "label": "location",
+            "type": "string",
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "Text"
+            }
           }
         },
         "relationships": [],
-        "selectQuery": "SELECT c.\u0060age\u0060 AS \u0027c.age\u0027,c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027 FROM \u006001a0a411-3463-73ec-a7b0-d46eafe3d896\u0060 c",
+        "selectQuery": "SELECT c.\u0060age\u0060 AS \u0027c.age\u0027,c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060location\u0060 AS \u0027c.location\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027 FROM \u006001a0a411-3463-73ec-a7b0-d46eafe3d896\u0060 c",
         "nonRecursiveSelectQuery": "SELECT c.* FROM \u006001a0a411-3463-73ec-a7b0-d46eafe3d896\u0060 c ",
         "indexes": [
           {
@@ -122,10 +133,20 @@
           29,
           45
         ],
-        "revision": "01a0a411-34ee-70be-8784-c970cd833d83"
+        "revision": "01a0a579-c2e6-76c5-86da-a54ba4bff1c3"
       }
     ],
-    "tableMigrations": [],
+    "tableMigrations": [
+      {
+        "revisionId": "01a0a579-c2e6-76c5-86da-a54ba4bff1c3",
+        "tableName": "01a0a411-3463-73ec-a7b0-d46eafe3d896",
+        "created": "2026-09-15T14:30:15Z",
+        "upSql": "ALTER TABLE \u006001a0a411-3463-73ec-a7b0-d46eafe3d896\u0060 ADD COLUMN IF NOT EXISTS \u0060location\u0060 TEXT CHARACTER SET utf8mb4 NULL;\n",
+        "upFriendlyName": "Add column \u0060location\u0060 to table \u0060name\u0060",
+        "downSql": "ALTER TABLE \u006001a0a411-3463-73ec-a7b0-d46eafe3d896\u0060 DROP COLUMN IF EXISTS \u0060location\u0060;",
+        "downFriendlyName": "Drop column \u0060location\u0060 from table \u0060name\u0060"
+      }
+    ],
     "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
     "resourceId": "bd0999d9-f979-427d-88b7-b73e2d055252",
     "name": "aaaa"
