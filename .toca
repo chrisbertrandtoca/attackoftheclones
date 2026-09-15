@@ -15,12 +15,7 @@
     {
       "type": "GitActivityResource",
       "id": "da0cbef5-4c18-474d-b4f6-fcfe345dbcc7",
-      "path": "Activity/da0cbef5-4c18-474d-b4f6-fcfe345dbcc7.activity",
-      "dependencies": {
-        "actionDetails": [],
-        "componentDetails": [],
-        "appActionsDetails": []
-      }
+      "path": "Activity/da0cbef5-4c18-474d-b4f6-fcfe345dbcc7.activity"
     },
     {
       "type": "GitPageResource",
