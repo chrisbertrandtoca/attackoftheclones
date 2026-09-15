@@ -26,6 +26,16 @@
       "type": "GitWorkspaceResource",
       "id": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
       "path": "a6ced665-aa7a-4dbc-a064-8ae204fa62de.workspace"
+    },
+    {
+      "type": "GitListenerResource",
+      "id": "a88828e0-44cd-40fe-94e5-1454519c35d2",
+      "path": "Listener/a88828e0-44cd-40fe-94e5-1454519c35d2.listener"
+    },
+    {
+      "type": "GitDatastoreResource",
+      "id": "bd0999d9-f979-427d-88b7-b73e2d055252",
+      "path": "Datastore/bd0999d9-f979-427d-88b7-b73e2d055252.datastore"
     }
   ],
   "environmentMappings": []
