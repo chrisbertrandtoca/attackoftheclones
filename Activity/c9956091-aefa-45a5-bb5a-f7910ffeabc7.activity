@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "id": "c9956091-aefa-45a5-bb5a-f7910ffeabc7",
+    "platformVersion": "10.0.0",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "52ce9fe1-502a-4db6-bd21-7829451a33f5",
+    "description": "adfads",
+    "botIds": [],
+    "version": 1,
+    "actions": [],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Stateless",
+    "migratedToBotUuid": false,
+    "workspaceId": "a6ced665-aa7a-4dbc-a064-8ae204fa62de",
+    "resourceId": "c9956091-aefa-45a5-bb5a-f7910ffeabc7",
+    "name": "new acti ity"
+  }
+}
