@@ -8,7 +8,7 @@
   },
   "content": {
     "projectId": "52ce9fe1-502a-4db6-bd21-7829451a33f5",
-    "description": "asd",
+    "description": "Asda price",
     "botIds": [],
     "version": 1,
     "actions": [
@@ -31,7 +31,7 @@
           {
             "key": "command",
             "type": "String",
-            "value": "\u0022// comments\u0022"
+            "value": "\u0022// comments go here\u0022"
           },
           {
             "key": "timeout",
